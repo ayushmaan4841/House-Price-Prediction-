@@ -1,6 +1,4 @@
-Here’s the complete **README.md** content for your project in one single code block:
 
-```markdown
 # House Price Prediction Model
 
 This repository contains a machine learning model built using **Linear Regression** to predict house prices based on various features such as area, number of bedrooms, bathrooms, garage spaces, number of floors, year built, and a location score. The project is implemented in **Python** using the **Scikit-learn** library.
