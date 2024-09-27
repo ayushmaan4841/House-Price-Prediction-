@@ -5,7 +5,7 @@ Here’s the complete **README.md** content for your project in one single code 
 
 This repository contains a machine learning model built using **Linear Regression** to predict house prices based on various features such as area, number of bedrooms, bathrooms, garage spaces, number of floors, year built, and a location score. The project is implemented in **Python** using the **Scikit-learn** library.
 
-## Table of Contents
+# Table of Contents
 
 - [Installation](#installation)
 - [Dataset](#dataset)
@@ -16,7 +16,7 @@ This repository contains a machine learning model built using **Linear Regressio
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+# Installation
 
 1. Clone the repository to your local machine using:
 
@@ -44,7 +44,7 @@ numpy
 scikit-learn
 ```
 
-## Dataset
+# Dataset
 
 The dataset used for this project includes the following features:
 
@@ -59,7 +59,7 @@ The dataset used for this project includes the following features:
 
 For demonstration, the dataset used is simulated, but you can easily replace it with a real-world dataset by loading it from a CSV file.
 
-## Features
+# Features
 
 The model is trained on the following features:
 
@@ -71,17 +71,17 @@ The model is trained on the following features:
 - **year_built**: Year when the house was constructed.
 - **location_score**: A numerical score reflecting the quality of the house’s location.
 
-## Model
+# Model
 
 The machine learning model used in this project is **Linear Regression** from **Scikit-learn**. The model predicts house prices based on the features listed above.
 
-### Steps in the Model:
+## Steps in the Model:
 1. **Data Preprocessing**: Handle missing values, feature scaling, and encoding categorical data if necessary.
 2. **Model Training**: Train the model using the training dataset.
 3. **Prediction**: Predict house prices for the test dataset or for new input data.
 4. **Evaluation**: Evaluate the model's performance using metrics like **Mean Squared Error** and **R² score**.
 
-## Usage
+# Usage
 
 1. Ensure you have installed the required dependencies using `pip install -r requirements.txt`.
 
@@ -99,7 +99,7 @@ The machine learning model used in this project is **Linear Regression** from **
    print("Predicted Price:", predicted_price)
    ```
 
-## Evaluation
+# Evaluation
 
 The model’s performance is evaluated using the following metrics:
 
@@ -114,7 +114,7 @@ R^2 Score: 0.95
 Predicted Prices: [450000.0, ...]
 ```
 
-## Contributing
+# Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue to suggest any improvements or fixes. Here's how you can contribute:
 
@@ -124,12 +124,11 @@ Contributions are welcome! Feel free to submit a pull request or open an issue t
 4. Push to your branch (`git push origin feature-branch`).
 5. Open a Pull Request.
 
-## License
+# License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-### How to Use:
+## How to Use:
 - Copy the above content into a file named **`README.md`** in your GitHub repository.
-- Replace the placeholder repository URL (`https://github.com/your-username/your-repo-name.git`) with the actual URL of your project.
-- Add a `requirements.txt` file if you don’t already have one with the necessary dependencies.
+- Replace the placeholder repository URL (`https://github.com/ayushmaan4841/House-Price-Prediction.git`) with the actual URL of your project.
